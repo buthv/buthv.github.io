@@ -14,8 +14,6 @@ body{
   flex-direction: column;
   justify-content: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 main{
   display: flex;
@@ -39,9 +37,7 @@ a {
   
   text-decoration: none;
   display: inline-block;
-=======
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
+}
 /* buttons */
 
 button{
@@ -50,34 +46,19 @@ button{
   color: black;
   font-size: 1em;
   font-family: Lekton;
-  margin: 30px;
   border: 1px solid black;
   background-color: white;
-<<<<<<< HEAD
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 }
 
 button:hover{
   color: white;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 a:hover{
   color: white;
 }
 .menu_button{
   margin-top: 50px;
-=======
-.menu_button{
-  margin-top: 100px;
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
-.menu_button{
-  margin-top: 100px;
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 }
 
 .contact:hover{
@@ -100,27 +81,16 @@ a:hover{
   color: #95E189;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 .text_top:hover{
   color: gray;
 }
 
-<<<<<<< HEAD
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 h3{
   font-family: Lora;
   margin: 0;
 }
 
 .cursive_font{
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: "Cedarville Cursive";
   font-size: 2em;
   margin: 0;
@@ -131,26 +101,12 @@ h3{
   color: black;
   letter-spacing: 0.2em;
 }
-=======
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-font-family: "Cedarville Cursive";
-font-size: 2em;
-margin: 0;
-color: black;
-}
 
-<<<<<<< HEAD
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 .project_title{
   text-align: center;
   font-family: Lora;
   background-color: #95E189;
   padding: 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   
   color: white;
   font-weight: 100;
@@ -165,30 +121,19 @@ color: black;
   font-family: Lekton;
   line-height: 2em;
   margin: 50px 0 50px 0;
-=======
   margin: 0;
-  color: white;
   font-weight: 100;
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
+
   margin: 0;
-  color: white;
   font-weight: 100;
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 }
 
 /* main */
 
 .project_detail{
   display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
   flex-direction: column;
   justify-content: center;
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
 }
 
 .project_brief{
@@ -196,8 +141,6 @@ color: black;
   margin: 70px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .full_image{
   max-height: 100vh;
   max-width: 100%;
@@ -222,14 +165,4 @@ color: black;
   max-height: 400px;
   align-self: center;
 }
-=======
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-.project_image{
-  max-width: 500px;
-  max-height: 100vh;
-}
-<<<<<<< HEAD
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
-=======
->>>>>>> f5cd6216b00edcb6db7a346ecf14ee16a6ae9260
+
