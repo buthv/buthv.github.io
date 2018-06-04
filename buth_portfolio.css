@@ -74,7 +74,7 @@ p {
 .intro_text{
   font-family: Lora;
   font-weight: 100;
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
   color: #95E189;
 }
@@ -83,7 +83,8 @@ p {
   color: gray;
 }
 
-h3{
+h3,
+h2{
   font-family: Lora;
   margin: 0;
 }
@@ -112,8 +113,6 @@ h3{
   
   margin: 0;
   letter-spacing: 0.2em;
-  
-  max-width: 500px;
 }
 
 .content_text{
