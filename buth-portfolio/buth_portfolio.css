@@ -73,6 +73,10 @@ a:hover{
 
 /* typography */
 
+p{
+  font-family: Lekton;
+  line-height: 2em;
+}
 .intro_text{
   font-family: Lora;
   font-weight: 100;
