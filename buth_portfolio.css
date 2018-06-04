@@ -53,12 +53,15 @@ a:hover{
 
 .contact:hover{
   background-color: #95E189;
+  border-color: #95E189;
 }
 .about:hover{
   background-color: #006DD6;
+  border-color: #006DD6;
 }
 .view_portfolio:hover{
   background-color: #C95EBE;
+  border-color: #C95EBE;
 }
 
 /* typography */
