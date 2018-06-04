@@ -38,17 +38,7 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-/* buttons */
 
-button{
-  padding: 10px 30px;
-  border-radius: 6px;
-  color: black;
-  font-size: 1em;
-  font-family: Lekton;
-  border: 1px solid black;
-  background-color: white;
-}
 
 button:hover{
   color: white;
@@ -73,10 +63,11 @@ a:hover{
 
 /* typography */
 
-p{
+p {
   font-family: Lekton;
   line-height: 2em;
 }
+
 .intro_text{
   font-family: Lora;
   font-weight: 100;
@@ -132,6 +123,25 @@ h3{
   font-weight: 100;
 }
 
+.project_sub_title{
+  font-family: Lora;
+  color: #95E189;
+  font-weight: 100;
+  
+  margin-bottom: 100px;
+  letter-spacing: 0.2em;
+}
+
+.project_content_text{
+  font-family: Lekton;
+  margin: 50px;
+  max-width: 400px;
+  line-height: 2em;
+}
+
+.content_sub_title{
+  font-family: Lekton;
+}
 /* main */
 
 .project_detail{
@@ -170,3 +180,14 @@ h3{
   align-self: center;
 }
 
+.project_content{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.content_image{
+  width: 500px;
+}
