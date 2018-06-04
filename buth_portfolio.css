@@ -112,6 +112,8 @@ h3{
   
   margin: 0;
   letter-spacing: 0.2em;
+  
+  max-width: 500px;
 }
 
 .content_text{
@@ -152,7 +154,7 @@ h3{
 }
 
 .project_brief{
-  max-width: 400px;
+  max-width: 500px;
   margin: 70px;
 }
 
