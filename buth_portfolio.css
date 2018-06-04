@@ -64,6 +64,14 @@ a:hover{
   border-color: #C95EBE;
 }
 
+.home{
+  font-family: "Cedarville Cursive";
+  border: none;
+}
+.home:hover{
+  font-size: 2em;
+  color: black;
+}
 /* typography */
 
 p {
