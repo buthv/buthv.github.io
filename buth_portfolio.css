@@ -108,7 +108,7 @@ h3{
   
   color: white;
   font-weight: 100;
-  width: 100%;
+  font-size: 2em;
   
   margin: 0;
   letter-spacing: 0.2em;
@@ -169,7 +169,15 @@ h3{
 }
 
 .desc_full_height{
-  min-height: 100vh;
+  min-height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc_lower_height{
+  min-height: 70vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
