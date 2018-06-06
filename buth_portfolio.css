@@ -32,10 +32,9 @@ a {
   
   margin-top: 50px;
   margin-right: 50px;
-  border: 1px solid black;
-  background-color: white;
+  border: none;
   
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
 }
 
@@ -52,8 +51,8 @@ a:hover{
 }
 
 .contact:hover{
-  background-color: #95E189;
-  border-color: #95E189;
+  color: #95E189;
+  text-decoration: underline;
 }
 .about:hover{
   background-color: #006DD6;
@@ -100,7 +99,7 @@ p {
 }
 
 .intro_text{
-  font-family: Lora;
+  font-family: "Cedarville Cursive";
   font-weight: 100;
   font-size: 3em;
   margin: 0;
@@ -109,7 +108,7 @@ p {
 
 h3,
 h2{
-  font-family: Lora;
+  font-family: Lekton;
   margin: 0;
 }
 
@@ -125,7 +124,7 @@ h2{
   letter-spacing: 0.2em;
 }
 
-.project_title{
+.project_title_link{
   text-align: center;
   font-family: "Cedarville Cursive";
   
@@ -136,6 +135,10 @@ h2{
   margin: 0;
   letter-spacing: 0.2em;
   max-width: 500px;
+}
+
+.project_title_link:hover{
+  color: #95E189;
 }
 
 .content_text{
@@ -184,7 +187,7 @@ h2{
 
 .project_brief{
   max-width: 500px;
-  margin: 70px;
+  margin: 40px;
 }
 
 .full_image{
