@@ -88,6 +88,10 @@ a:hover{
   border-color: #FFEC69;
   color: black;
 }
+
+.project_title_link{
+  border: none;
+}
 /* typography */
 
 p {
@@ -128,8 +132,6 @@ h2{
 .project_title{
   text-align: center;
   font-family: Lora;
-  background-color: #95E189;
-  padding: 10px;
   
   color: white;
   font-weight: 100;
