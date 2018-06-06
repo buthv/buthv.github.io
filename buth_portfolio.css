@@ -84,8 +84,9 @@ a:hover{
     padding: 3px;
 }
 
-.arrow_down {
-    transform: rotate(45deg);
+.hand_down {
+    border: none;
+    align-self:flex-end;
 }
 
 /* typography */
