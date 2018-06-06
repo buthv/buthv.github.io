@@ -77,18 +77,6 @@ a:hover{
   color: limegreen;
 }
 
-.i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
-.hand_down {
-    border: none;
-    align-self:flex-end;
-}
-
 /* typography */
 
 p {
