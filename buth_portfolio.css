@@ -77,6 +77,15 @@ a:hover{
   color: limegreen;
 }
 
+.email{
+  margin: 0;
+}
+
+.email:hover{
+  background-color: #FFEC69;
+  border-color: #FFEC69;
+  color: darkgreen;
+}
 /* typography */
 
 p {
@@ -85,7 +94,7 @@ p {
 }
 
 .intro_text{
-  font-family: Lora;
+  font-family: Lekton;
   font-weight: 100;
   font-size: 3em;
   margin: 0;
@@ -98,7 +107,7 @@ p {
 
 h3,
 h2{
-  font-family: Lora;
+  font-family: Lekton;
   margin: 0;
 }
 
@@ -161,6 +170,7 @@ h2{
 
 .footer_title{
   font-family: Lekton;
+  color: darkgreen;
 }
 /* main */
 
