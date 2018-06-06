@@ -77,6 +77,17 @@ a:hover{
   color: limegreen;
 }
 
+.i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow_down {
+    transform: rotate(45deg);
+}
+
 /* typography */
 
 p {
@@ -126,6 +137,7 @@ h2{
   
   margin: 0;
   letter-spacing: 0.2em;
+  max-width: 500px;
 }
 
 .content_text{
