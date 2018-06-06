@@ -79,12 +79,14 @@ a:hover{
 
 .email{
   margin: 0;
+  background-color: #FFEC69;
+  border-color: #FFEC69;
 }
 
 .email:hover{
-  background-color: #FFEC69;
+  background-color: white;
   border-color: #FFEC69;
-  color: darkgreen;
+  color: black;
 }
 /* typography */
 
@@ -94,7 +96,7 @@ p {
 }
 
 .intro_text{
-  font-family: Lekton;
+  font-family: Lora;
   font-weight: 100;
   font-size: 3em;
   margin: 0;
@@ -107,7 +109,7 @@ p {
 
 h3,
 h2{
-  font-family: Lekton;
+  font-family: Lora;
   margin: 0;
 }
 
@@ -170,7 +172,7 @@ h2{
 
 .footer_title{
   font-family: Lekton;
-  color: darkgreen;
+  color: white;
 }
 /* main */
 
@@ -232,6 +234,7 @@ h2{
 footer{
   text-align: center;
   margin-top: 100px;
+  background-color: #95E189;
 }
 
 .footer_detail{
