@@ -34,7 +34,7 @@ a {
   margin-right: 50px;
   border: none;
   
-  text-decoration: underline;
+  background-color: white;
   display: inline-block;
 }
 
@@ -55,12 +55,12 @@ a:hover{
   text-decoration: underline;
 }
 .about:hover{
-  background-color: #006DD6;
-  border-color: #006DD6;
+  color: #006DD6;
+  text-decoration: underline;
 }
 .view_portfolio:hover{
-  background-color: #C95EBE;
-  border-color: #C95EBE;
+  color: #C95EBE;
+  text-decoration: underline;
 }
 
 .home{
@@ -90,6 +90,7 @@ a:hover{
 
 .project_title_link{
   border: none;
+  text-decoration: none;
 }
 /* typography */
 
