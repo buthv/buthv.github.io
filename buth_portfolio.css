@@ -158,6 +158,10 @@ h2{
 .content_sub_title{
   font-family: Lekton;
 }
+
+.footer_title{
+  font-family: Lekton;
+}
 /* main */
 
 .project_detail{
@@ -213,4 +217,13 @@ h2{
 
 .content_image{
   width: 600px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer_detail{
+ 
 }
