@@ -107,10 +107,6 @@ p {
   color: #95E189;
 }
 
-.text_top:hover{
-  color: gray;
-}
-
 h3,
 h2{
   font-family: Lora;
@@ -131,9 +127,9 @@ h2{
 
 .project_title{
   text-align: center;
-  font-family: Lora;
+  font-family: "Cedarville Cursive";
   
-  color: white;
+  color: black;
   font-weight: 100;
   font-size: 2em;
   
@@ -153,7 +149,7 @@ h2{
 }
 
 .project_sub_title{
-  font-family: Lora;
+  font-family: "Cedarville Cursive";
   color: #95E189;
   font-weight: 100;
   
@@ -169,7 +165,9 @@ h2{
 }
 
 .content_sub_title{
-  font-family: Lekton;
+  font-family: "Cedarville Cursive";
+  font-size: 1.5em;
+  color: #95E189;
 }
 
 .footer_title{
