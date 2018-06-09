@@ -18,16 +18,17 @@ a {
   padding: 10px 30px;
   border-radius: 6px;
   
-  color: black;
   font-size: 1em;
   font-family: Lekton;
   
   margin-top: 50px;
   margin-right: 50px;
-  border: 1px solid gray;
   
   background-color: white;
   display: inline-block;
+  
+  border: 1px solid gray;
+  color: gray;
 }
 
 
@@ -44,18 +45,18 @@ a:hover{
 
 .contact:hover{
   color: white;
-  background-color: #3366ff;
-  border: 1px solid #3366ff;
+  background-color: #ff02ff;
+  border: 1px solid #ff02ff;
 }
 .about:hover{
   color: white;
-  background-color: #006DD6;
-  border: 1px solid #006DD6;
+  background-color: #00ccfe;
+  border: 1px solid #00ccfe;
 }
 .view_portfolio:hover{
   color: white;
-  background-color: #C95EBE;
-  border: 1px solid #C95EBE;
+  background-color: #f9ee5a;
+  border: 1px solid #f9ee5a;
 }
 
 .home{
@@ -134,7 +135,7 @@ h2{
   text-align: center;
   font-family: "Cedarville Cursive";
   
-  color: black;
+  color: #3366ff;
   font-weight: 100;
   font-size: 2em;
   
@@ -151,6 +152,7 @@ h2{
   font-family: "Cedarville Cursive";
   font-size: 2em;
   letter-spacing: 0.2em;
+  color: #3366ff;
 }
 .content_text{
   max-width: 38em;
@@ -192,7 +194,7 @@ h2{
 /* main */
 
 .introduction{
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
 }
 .intro{
