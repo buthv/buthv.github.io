@@ -81,12 +81,13 @@ a:hover{
 
 .email{
   margin: 0;
-  background-color: #95E189;
+  background-color: transparent;
   text-decoration: none;
   color: white;
   border: none;
   
   font-size: 1.5em;
+  padding: 20px;
 }
 
 .email:hover{
@@ -97,6 +98,7 @@ a:hover{
   border: none;
   text-decoration: none;
 }
+
 /* typography */
 
 p {
@@ -252,11 +254,9 @@ footer{
   text-align: center;
   margin-top: 100px;
   background-color: #95E189;
-  height: 100px;
 }
 
-.footer_detail{
-  display: flex;
-  flex-direction: column;
+.view_other_project{
+  padding:  50px;
 }
 
