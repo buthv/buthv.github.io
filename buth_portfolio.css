@@ -255,3 +255,8 @@ footer{
   height: 100px;
 }
 
+.footer_detail{
+  display: flex;
+  flex-direction: column;
+}
+
