@@ -64,12 +64,17 @@ a:hover{
   font-size: 1.5em;
   border: none;
   background-color: #3366ff;
+  
   margin: 0;
+  width: 20px;
+  line-height: 1;
   border-radius: 0;
   color: white;
+  text-decoration: none;
+  
 }
 .home:hover{
-  color: limegreen;
+  color: darkblue;
 }
 
 .email{
@@ -84,7 +89,7 @@ a:hover{
 }
 
 .email:hover{
-  color: #FFEC69;
+  color: #ff02ff;
 }
 
 .project_title_link{
@@ -267,6 +272,6 @@ footer{
 }
 
 .view_other_project{
-  background-color: palegreen;
+  background-color: #f9ee5a;
 }
 
