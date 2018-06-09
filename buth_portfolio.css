@@ -189,9 +189,10 @@ h2{
   color: #95E189;
 }
 
-.footer_title{
+.footer_title_text{
   font-family: Lekton;
-  color: white;
+  color: black;
+  font-weight: 100;
 }
 /* main */
 
@@ -256,7 +257,4 @@ footer{
   background-color: #95E189;
 }
 
-.view_other_project{
-  padding:  50px;
-}
 
