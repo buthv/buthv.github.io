@@ -150,6 +150,11 @@ h2{
   color: #95E189;
 }
 
+.project_title{
+  font-family: "Cedarville Cursive";
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
 .content_text{
   max-width: 38em;
   font-family: Lekton;
