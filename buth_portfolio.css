@@ -81,14 +81,16 @@ a:hover{
 
 .email{
   margin: 0;
-  background-color: #FFEC69;
-  border-color: #FFEC69;
+  background-color: #95E189;
+  text-decoration: none;
+  color: white;
+  border: none;
+  
+  font-size: 1.5em;
 }
 
 .email:hover{
-  background-color: white;
-  border-color: #FFEC69;
-  color: black;
+  color: #FFEC69;
 }
 
 .project_title_link{
@@ -245,8 +247,6 @@ footer{
   text-align: center;
   margin-top: 100px;
   background-color: #95E189;
+  height: 100px;
 }
 
-.footer_detail{
- 
-}
