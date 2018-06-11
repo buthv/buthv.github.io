@@ -66,11 +66,14 @@ a:hover{
   background-color: #3366ff;
   
   margin: 0;
-  width: 20px;
+  width: 100px;
   line-height: 1;
   border-radius: 0;
   color: white;
   text-decoration: none;
+  
+  padding: 10px;
+  text-align: center;
   
 }
 .home:hover{
