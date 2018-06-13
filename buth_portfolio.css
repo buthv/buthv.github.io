@@ -122,6 +122,23 @@ header{
   transition: all .2s ease-in-out;
 }
 
+.go_up{
+  position: fixed;
+  border: 1px solid #3366ff;
+  top: 50%;
+  
+  transition: all .1s ease-in-out;
+  z-index: 1;
+}
+
+a.go_up{
+  padding: 0;
+}
+
+.go_up:hover{
+  border: 1px dotted #3366ff;
+  background-color: #f9ee5a;
+}
 /* arrow link effect */
 
 .arrow a:hover{
