@@ -70,10 +70,12 @@ header{
 .backhome{
   background-color: #ff02ff;
   margin: 0;
+  box-shadow: 2px 2px #3366ff;
 }
 
 .backhome:hover{
   background-color: #f9ee5a;
+  box-shadow: 5px 4px #3366ff;
 }
 .email{
   margin: 0;
