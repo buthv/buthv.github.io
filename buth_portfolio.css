@@ -16,7 +16,7 @@ main{
 button,
 a {
   padding: 10px 30px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: Lekton;
   
   margin-top: 50px;
@@ -32,7 +32,7 @@ a {
 
 button{
   transition-property: transform;
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 button:hover{
@@ -52,16 +52,19 @@ a:hover{
   color: #ff02ff;
   background-color: #00ccfe;
   border-color: #00ccfe;
+  border: dotted;
 }
 .about:hover{
   color: #00ccfe;
   background-color: #f9ee5a;
   border-color: #f9ee5a;
+  border: dotted;
 }
 .view_portfolio:hover{
   color: #f9ee5a;
   background-color: #ff02ff;
   border-color: #ff02ff;
+  border: dotted;
 }
 
 header{
@@ -73,7 +76,7 @@ header{
   margin: 0;
   box-shadow: 2px 2px #3366ff;
   
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .backhome:hover{
@@ -85,14 +88,20 @@ header{
   background-color: transparent;
   text-decoration: none;
   color: white;
-  border: none;
   
   font-size: 1.5em;
   padding: 20px;
+  box-shadow: 1px 1px white;
+  border: 2px solid white;
+  
+  transition: all .1s ease-in-out;
 }
 
 .email:hover{
   color: #ff02ff;
+  background-color: #f9ee5a;
+  transform: translateY(-10px);
+  border: 2px dotted white;
 }
 
 .project_title_link{
