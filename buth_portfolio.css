@@ -147,6 +147,8 @@ p {
   margin-top: 100px;
   color: #3366ff;
   line-height: 1;
+  
+ 
 }
 
 h3{
@@ -165,6 +167,26 @@ h2{
   font-size: 2em;
   margin: 0;
   color: #3366ff;
+   
+  animation-name: introText;
+}
+
+.cursive_font:hover{
+  animation-name: introText;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes introText{
+  0%{
+    color: red;
+  }
+  50%{
+    color: #ff02ff;
+  }
+  100%{
+    color: yellow;
+  }
 }
 .text_cursive{
   font-family: "Cedarville Cursive";
@@ -238,6 +260,7 @@ h2{
   width: 400px;
   margin: 0 auto;
 }
+
 .intro{
   text-align: center;
   min-height: 100vh;
