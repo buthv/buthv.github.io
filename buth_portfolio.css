@@ -111,9 +111,11 @@ header{
   transition-property: transform;
 }
 
-.arrow:hover{
+.arrow a:hover{
   color: white;
   transform: translateY(10px);
+  background-color: chartreuse;
+  box-shadow: 2px 2px #3366ff;
 }
 
 /* typography */
