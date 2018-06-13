@@ -44,7 +44,7 @@ a:hover{
   color: white;
 }
 .menu_button{
-  margin-top: 50px;
+  margin-top: 0;
 }
 
 .contact:hover{
@@ -98,7 +98,7 @@ header{
 }
 
 .arrow{
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .arrow a{
@@ -126,18 +126,28 @@ p {
 .intro_text{
   font-family: "Cedarville Cursive";
   font-weight: 100;
-  font-size: 3em;
-  margin-top: 100px;
+  font-size: 4em;
   color: #3366ff;
   line-height: 1;
   
- 
+  transition-property: transform;
+}
+
+.intro_text:hover{
+  transform: skewY(-20deg);
 }
 
 h3{
   font-family:"Cedarville Cursive";
-  font-size: 2em;
+  font-size: 3em;
   color: #ff02ff;
+  margin: 0;
+  
+  transition-property: transform;
+}
+
+h3:hover{
+ transform: skewY(20deg);
 }
 
 h2{
@@ -155,9 +165,9 @@ h2{
   animation-name: introText;
 }
 
-.cursive_font:hover{
+.cursive_font{
   animation-name: introText;
-  animation-duration: 0.5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
