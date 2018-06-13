@@ -154,7 +154,7 @@ p {
 h3{
   font-family:"Cedarville Cursive";
   font-size: 2em;
-  color: #3366ff;
+  color: #ff02ff;
 }
 
 h2{
@@ -167,6 +167,7 @@ h2{
   font-size: 2em;
   margin: 0;
   color: #3366ff;
+  text-shadow: 2px 2px #ff02ff;
    
   animation-name: introText;
 }
@@ -205,6 +206,8 @@ h2{
   margin: 0;
   letter-spacing: 0.2em;
   max-width: 500px;
+  
+  text-shadow: 1px 1px #ff02ff;
 }
 
 .project_title_link:hover{
