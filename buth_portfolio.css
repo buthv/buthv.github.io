@@ -16,8 +16,6 @@ main{
 button,
 a {
   padding: 10px 30px;
-  border-radius: 6px;
-  
   font-size: 1em;
   font-family: Lekton;
   
@@ -53,14 +51,17 @@ a:hover{
 .contact:hover{
   color: #ff02ff;
   border: 1px solid #ff02ff;
+  background-color: #00ccfe;
 }
 .about:hover{
   color: #00ccfe;
   border: 1px solid #00ccfe;
+  background-color: #f9ee5a;
 }
 .view_portfolio:hover{
   color: #f9ee5a;
   border: 1px solid #f9ee5a;
+  background-color: #ff02ff;
 }
 
 header{
@@ -114,6 +115,18 @@ ul {
   text-decoration: none;
 }
 
+.arrow{
+  margin-top: 100px;
+}
+
+.arrow a{
+  border: none;
+}
+
+.arrow a:hover{
+  background-color:  #ff02ff;
+}
+
 /* typography */
 
 p {
@@ -125,7 +138,7 @@ p {
   font-family: "Cedarville Cursive";
   font-weight: 100;
   font-size: 3em;
-  margin: 0;
+  margin-top: 100px;
   color: #3366ff;
   line-height: 1;
 }
