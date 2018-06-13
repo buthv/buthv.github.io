@@ -71,17 +71,17 @@ header{
   display: flex;
 }
 
-.backhome{
-  background-color: #ff02ff;
+.top_dest{
   margin: 0;
-  box-shadow: 2px 2px #3366ff;
+  border: 1px solid white;
   
   transition: all .1s ease-in-out;
 }
 
-.backhome:hover{
+.top_dest:hover{
   background-color: #f9ee5a;
-  transform: translateX(5px);
+  transform: translateY(5px);
+  box-shadow: 2px 2px #ff02ff;
 }
 .email{
   margin: 0;
