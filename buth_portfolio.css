@@ -323,17 +323,17 @@ h2{
   
   animation-name: hover;
   transition-duration: .5s;
-  transition-property: transform;
 }
 
 .full_image:hover{
   transform: translateY(-6px);
+  
   animation-name: hover;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  
+  filter: hue-rotate(180deg);
 }
 
 @keyframes hover {
