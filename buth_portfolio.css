@@ -31,11 +31,18 @@ a {
   color: gray;
 }
 
+/* buttons animation */
+
+button{
+  transition-property: transform;
+}
 
 button:hover{
   color: white;
+  transform: translateY(-7px);
 }
 
+/* other button and link styles */
 a:hover{
   color: white;
 }
@@ -44,18 +51,15 @@ a:hover{
 }
 
 .contact:hover{
-  color: white;
-  background-color: #ff02ff;
+  color: #ff02ff;
   border: 1px solid #ff02ff;
 }
 .about:hover{
-  color: white;
-  background-color: #00ccfe;
+  color: #00ccfe;
   border: 1px solid #00ccfe;
 }
 .view_portfolio:hover{
-  color: white;
-  background-color: #f9ee5a;
+  color: #f9ee5a;
   border: 1px solid #f9ee5a;
 }
 
