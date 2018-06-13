@@ -64,36 +64,17 @@ a:hover{
 }
 
 header{
-  background-color: #3366ff;
-  width: 100%;
   display: flex;
 }
 
-ul {
-  padding: 0;
+.backhome{
+  background-color: #ff02ff;
   margin: 0;
 }
 
-.home{
-  font-family: "Cedarville Cursive";
-  font-size: 1.5em;
-  border: none;
-  
-  background-color: #3366ff;
-  margin: 0;
-  line-height: 1;
-  border-radius: 0;
-  color: white;
-  text-decoration: none;
-  
-  padding: 10px 30px;
-  text-align: center;
-  
+.backhome:hover{
+  background-color: #f9ee5a;
 }
-.home:hover{
-  color: darkblue;
-}
-
 .email{
   margin: 0;
   background-color: transparent;
