@@ -73,13 +73,14 @@ header{
 
 .top_dest{
   margin: 0;
-  border: 1px solid white;
+  border: 2px solid white;
   
   transition: all .1s ease-in-out;
 }
 
  a.top_dest{
   padding: 0 5px 0 5px;
+  border: 2px solid chartreuse; 
 }
 
 .top_dest:hover{
@@ -96,7 +97,6 @@ header{
   font-size: 1.5em;
   padding: 20px;
   box-shadow: 1px 1px white;
-  border: 2px solid white;
   
   transition: all .1s ease-in-out;
 }
