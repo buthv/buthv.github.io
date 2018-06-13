@@ -73,14 +73,12 @@ header{
 
 .top_dest{
   margin: 0;
-  border: 2px solid white;
   
   transition: all .1s ease-in-out;
 }
 
  a.top_dest{
   padding: 0 5px 0 5px;
-  border: 2px solid chartreuse; 
 }
 
 .top_dest:hover{
@@ -260,6 +258,7 @@ h2{
   font-weight: 100;
 
   font-weight: 100;
+  color: dimgrey;
 }
 
 .project_sub_title{
@@ -276,6 +275,8 @@ h2{
   margin: 150px;
   max-width: 400px;
   line-height: 2em;
+  
+  color: dimgrey;
 }
 
 .content_sub_title{
