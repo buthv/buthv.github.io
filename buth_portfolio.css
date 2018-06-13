@@ -333,15 +333,18 @@ h2{
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  
 }
 
 @keyframes hover {
 	50% {
 		transform: translateY(-1px);
+        filter: hue-rotate(180deg);
 	}
 
 	100% {
 		transform: translateY(-10px);
+        filter: hue-rotate(200deg);
 	}
 }
 
