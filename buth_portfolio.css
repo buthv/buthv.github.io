@@ -317,7 +317,7 @@ h2{
 
 .full_image{
   max-height: 100vh;
-  max-width: 100%;
+  width: 1200px;
   text-align: center;
   
   animation-name: hover;
@@ -376,10 +376,12 @@ h2{
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
+  
+  max-width: 1200px;
 }
 
 .content_image{
-  width: 600px;
+  width: 500px;
 }
 
 footer{
