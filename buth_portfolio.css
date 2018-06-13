@@ -78,6 +78,10 @@ header{
   transition: all .1s ease-in-out;
 }
 
+ a.top_dest{
+  padding: 0 5px 0 5px;
+}
+
 .top_dest:hover{
   background-color: #f9ee5a;
   transform: translateY(5px);
@@ -293,6 +297,29 @@ h2{
   max-height: 100vh;
   max-width: 100%;
   text-align: center;
+  
+  animation-name: hover;
+  transition-duration: .5s;
+  transition-property: transform;
+}
+
+.full_image:hover{
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hover {
+	50% {
+		transform: translateY(-1px);
+	}
+
+	100% {
+		transform: translateY(-10px);
+	}
 }
 
 .project_introduction{
