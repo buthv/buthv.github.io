@@ -373,6 +373,14 @@ h2{
   align-items: center;
 }
 
+.desc_different_style {
+  min-height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .project_sample_img{
   max-height: 400px;
   align-self: center;
@@ -400,4 +408,9 @@ footer{
 .view_other_project{
   background-color: lightgray;
 }
+
+.content_smaller_image{
+  max-width: 1000px;
+}
+
 
