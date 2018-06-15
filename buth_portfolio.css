@@ -149,6 +149,11 @@ a.go_up{
   box-shadow: 2px 2px #3366ff;
 }
 
+.view_ptt {
+  color: #ff02ff;
+  text-decoration: none;
+  text-align: center;
+}
 /* typography */
 
 p {
