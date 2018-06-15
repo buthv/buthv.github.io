@@ -258,7 +258,8 @@ h2{
   font-weight: 100;
 
   font-weight: 100;
-  color: dimgrey;
+  color: #3366ff;
+  padding: 10px;
 }
 
 .project_sub_title{
@@ -268,6 +269,8 @@ h2{
   
   margin-bottom: 100px;
   letter-spacing: 0.2em;
+  
+  border-bottom: 4px dotted #f9ee5a;
 }
 
 .project_content_text{
@@ -276,7 +279,7 @@ h2{
   max-width: 400px;
   line-height: 2em;
   
-  color: dimgrey;
+  color: #3366ff;
 }
 
 .content_sub_title{
@@ -289,6 +292,10 @@ h2{
   font-family: Lekton;
   color: black;
   font-weight: 100;
+}
+
+b{
+  color: #ff02ff;
 }
 /* main */
 
@@ -410,6 +417,7 @@ footer{
 
 .content_smaller_image{
   max-width: 1000px;
+  border: 1px dotted #3366ff;
 }
 
 
