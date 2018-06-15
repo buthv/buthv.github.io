@@ -264,11 +264,12 @@ h2{
 
 .project_sub_title{
   font-family: "Cedarville Cursive";
-  color: #3366ff;
+  color: chartreuse;
   font-weight: 100;
   
   margin-bottom: 100px;
   letter-spacing: 0.2em;
+  font-size: 2em;
   
   border-bottom: 4px dotted #f9ee5a;
 }
