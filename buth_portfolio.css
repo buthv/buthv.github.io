@@ -318,7 +318,6 @@ h2{
 
 .full_image_transform{
   max-height: 100vh;
-  width: 1200px;
   text-align: center;
   
   animation-name: hoverImage;
@@ -396,7 +395,7 @@ h2{
 }
 
 .content_image{
-  width: 500px;
+  width: 600px;
 }
 
 footer{
