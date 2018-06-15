@@ -88,13 +88,13 @@ header{
 }
 .email{
   margin: 0;
-  background-color: transparent;
+  background-color: #ff02ff;
   text-decoration: none;
   color: white;
   
   font-size: 1.5em;
   padding: 20px;
-  box-shadow: 1px 1px white;
+  box-shadow: 2px 2px white;
   
   transition: all .1s ease-in-out;
 }
@@ -321,30 +321,27 @@ h2{
   width: 1200px;
   text-align: center;
   
-  animation-name: hover;
+  animation-name: hoverImage;
   transition-duration: .5s;
 }
 
 .full_image_transform:hover{
   transform: translateY(-6px);
   
-  animation-name: hover;
+  animation-name: hoverImage;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  filter: hue-rotate(180deg);
 }
 
-@keyframes hover {
+@keyframes hoverImage {
 	50% {
 		transform: translateY(-1px);
-        filter: hue-rotate(180deg);
 	}
 
 	100% {
 		transform: translateY(-10px);
-        filter: hue-rotate(200deg);
 	}
 }
 
