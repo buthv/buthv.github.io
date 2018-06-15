@@ -153,6 +153,12 @@ a.go_up{
   color: #ff02ff;
   text-decoration: none;
   text-align: center;
+  font-size: 1em;
+  border: 2px dotted chartreuse;
+}
+
+.view_ptt:hover{
+  background-color: #3366ff;
 }
 /* typography */
 
