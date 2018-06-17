@@ -44,27 +44,32 @@ button:hover{
 a:hover{
   color: white;
 }
-.menu_button{
-  margin-top: 0;
+.contact,
+.about,
+.view_portfolio{
+  box-shadow: 2px 2px gray;
+  border: 1px solid gray;
 }
-
 .contact:hover{
   color: #ff02ff;
   background-color: #00ccfe;
   border-color: #00ccfe;
   border: dotted;
+  box-shadow: 2px 2px #ff02ff;
 }
 .about:hover{
   color: #00ccfe;
   background-color: #f9ee5a;
   border-color: #f9ee5a;
   border: dotted;
+  box-shadow: 2px 2px #00ccfe;
 }
 .view_portfolio:hover{
   color: #f9ee5a;
   background-color: #ff02ff;
   border-color: #ff02ff;
   border: dotted;
+  box-shadow: 2px 2px #f9ee5a;
 }
 
 header{
