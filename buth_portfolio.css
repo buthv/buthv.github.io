@@ -415,12 +415,10 @@ b{
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  
-  max-width: 1200px;
 }
 
 .content_image{
-  width: 40vw;
+  width: 600px;
 }
 
 footer{
