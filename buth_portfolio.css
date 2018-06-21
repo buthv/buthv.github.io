@@ -417,8 +417,12 @@ b{
   justify-content: center;
 }
 
+.content_image_container{
+  width: 500px;
+  height: auto;
+}
 .content_image{
-  width: 600px;
+  width: 100%
 }
 
 footer{
