@@ -393,9 +393,8 @@ b{
   min-height: 70vh;
   display: flex;
   flex-flow: column nowrap;
-  justify-content:space-between;
+  justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .desc_different_style {
