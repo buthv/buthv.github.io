@@ -440,6 +440,10 @@ footer{
 }
 
 /* about me page */
+
+.abtme_main{
+  background-color:#3366ff;
+}
 .abtme_content{
   display: flex;
   flex-direction: column;
@@ -455,3 +459,4 @@ footer{
 .abtme_image{
   width: 100%;
 }
+
