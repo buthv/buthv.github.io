@@ -439,4 +439,19 @@ footer{
   max-width: 1000px;
 }
 
+/* about me page */
+.abtme_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.abtme_content_image{
+  width: 600px;
+  height: auto;
+}
+
+.abtme_image{
+  width: 100%;
+}
