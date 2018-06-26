@@ -13,8 +13,8 @@ main{
 }
 /* buttons */
 
-button,
 a {
+  text-decoration: none;
   padding: 10px 30px;
   font-size: 1.5em;
   font-family: Lekton;
@@ -78,7 +78,6 @@ header{
 
 .top_dest{
   margin: 0;
-  
   transition: all .1s ease-in-out;
 }
 
@@ -314,6 +313,15 @@ h2{
 b{
   color: #ff02ff;
 }
+
+.abtme_text{
+  font-family: Lekton;
+  color: white;
+  
+  max-width: 500px;
+  text-align: center;
+  line-height: 1.5em;
+}
 /* main */
 
 .introduction{
@@ -442,7 +450,7 @@ footer{
 /* about me page */
 
 .abtme_main{
-  background-color:#3366ff;
+  height: 100vh;
 }
 .abtme_content{
   display: flex;
