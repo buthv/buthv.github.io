@@ -30,12 +30,12 @@ a {
 
 /* buttons animation */
 
-button{
+.menu_link{
   transition-property: transform;
   transition: all .1s ease-in-out;
 }
 
-button:hover{
+.menu_link:hover{
   color: white;
   transform: translateY(-7px);
 }
