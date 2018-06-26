@@ -316,10 +316,11 @@ b{
 
 .abtme_text{
   font-family: Lekton;
-  color: white;
+  color: #00ccfe;
   
   max-width: 500px;
   text-align: center;
+  font-size: 1.6em;
   line-height: 1.5em;
 }
 /* main */
