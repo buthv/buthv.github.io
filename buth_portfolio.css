@@ -321,14 +321,20 @@ b{
   
   max-width: 500px;
   text-align: center;
-  font-size: 1.6em;
   line-height: 1.5em;
+  
+  border: 2px dotted white;
+  background-color: chartreuse;
 }
 
 .abtme_title_text{
-  text-transform: uppercase;
   color: #3366ff;
   letter-spacing: 0.2em;
+  text-align: center;
+  width: 100px;
+  
+  border: 2px dotted white;
+  background-color: chartreuse;
 }
 /* main */
 
@@ -478,5 +484,5 @@ footer{
 
 .abtme_title{
   text-align: center;
+  margin-top: 50px;
 }
-
