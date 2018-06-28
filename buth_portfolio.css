@@ -457,8 +457,12 @@ footer{
   background-color: lightgray;
 }
 
-.content_smaller_image{
+.smaller_image{
   max-width: 1000px;
+  height: auto;
+}
+.content_smaller_image{
+  width: 100%;
 }
 
 /* about me page */
