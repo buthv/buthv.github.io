@@ -319,19 +319,20 @@ b{
   font-family: Lekton;
   color: #3366ff;
   
-  max-width: 500px;
+  max-width: 600px;
   text-align: center;
   line-height: 1.5em;
   
   border: 2px dotted white;
   background-color: chartreuse;
+  
+  margin: 20px;
 }
 
 .abtme_title_text{
   color: #3366ff;
   letter-spacing: 0.2em;
   text-align: center;
-  width: 100px;
   
   border: 2px dotted white;
   background-color: chartreuse;
@@ -472,6 +473,8 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  margin-bottom: 50px;
 }
 
 .abtme_content_image{
