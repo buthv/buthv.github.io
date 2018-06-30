@@ -317,16 +317,11 @@ b{
 
 .abtme_text{
   font-family: Lekton;
-  color: #3366ff;
+  color: white;
   
   max-width: 600px;
   text-align: center;
   line-height: 1.5em;
-  
-  border: 2px dotted white;
-  background-color: chartreuse;
-  
-  margin: 20px;
 }
 
 .abtme_title_text{
@@ -468,23 +463,45 @@ footer{
 
 /* about me page */
 
-.abtme_content{
+.abtme_main{
+  background-image:url(img/aboutme_img/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
-  margin-bottom: 50px;
+  margin-bottom: 50px;  
 }
-
+  
 .abtme_content_image{
   width: 600px;
-  height: auto;
+  height: auto; 
 }
 
-.abtme_image{
+.abtme_image_one,
+.abtme_image_two,
+.abtme_image_three {
   width: 100%;
 }
+
+.abtme_image_one,
+.abtme_image_two,
+.abtme_image_three{
+  
+  animation-name: come-in;
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
 
 .abtme_title{
   text-align: center;
