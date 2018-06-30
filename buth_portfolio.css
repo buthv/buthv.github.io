@@ -170,6 +170,8 @@ a.go_up{
   text-align: center;
   background-color: transparent;
   text-decoration: none;
+  
+  margin: 0;
 }
 /* typography */
 
