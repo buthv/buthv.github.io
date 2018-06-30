@@ -507,11 +507,14 @@ footer{
 .number_link{
   
   position: relative;
-  padding: 0;
-  margin-right: 90px;
+  padding: 10px;
   text-align: center;
 
   color: #ff02ff;
+}
+
+.number_link a{
+  display: inline-block;
 }
 
 .number_link:hover{
