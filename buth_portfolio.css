@@ -165,6 +165,10 @@ a.go_up{
   background-color: #3366ff;
 }
 
+.abt_home{
+  
+}
+
 /* typography */
 
 p {
@@ -468,12 +472,6 @@ footer{
 /* about me page */
 
 .abtme_main{
-  background-image: url(/img/aboutme_img/background.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
