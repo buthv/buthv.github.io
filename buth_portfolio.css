@@ -19,8 +19,7 @@ a {
   font-size: 1.5em;
   font-family: Lekton;
   
-  margin-top: 50px;
-  margin-right: 50px;
+  margin: 50px 20px 0 20px;
   
   background-color: transparent;
   display: inline-block;
@@ -173,6 +172,10 @@ p {
   line-height: 2em;
 }
 
+.quote{
+  color: white;
+  margin: 10px;
+}
 .intro_text{
   font-family: "Cedarville Cursive";
   font-weight: 100;
