@@ -166,13 +166,6 @@ a.go_up{
   background-color: #3366ff;
 }
 
-.arrow_abt{
-  text-align: center;
-  background-color: transparent;
-  text-decoration: none;
-  
-  margin: 0;
-}
 /* typography */
 
 p {
@@ -496,12 +489,14 @@ footer{
 .abtme_content_image{
   width: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .abtme_image {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .abtme_title{
@@ -509,3 +504,31 @@ footer{
   margin-top: 50px;
 }
 
+.number_link{
+  
+  padding: 0;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+
+  color: #ff02ff;
+}
+
+.number_link:hover{
+  
+  color: #3366ff;
+  transform: skewX(30deg);
+}
+
+.number_link:nth-child(odd):hover{
+  
+  color: #3366ff;
+  transform: skewX(-30deg);
+}
+
+.numbers{
+  margin: 0 auto;
+  position: fixed;
+  top: 40px;
+}
