@@ -506,6 +506,7 @@ footer{
 
 .number_link{
   
+  position: relative;
   padding: 0;
   margin-right: 90px;
   text-align: center;
@@ -516,17 +517,42 @@ footer{
 .number_link:hover{
   
   color: #3366ff;
-  transform: rotateY(-150deg);
-}
-
-.number_link:nth-child(odd):hover{
-  
-  color: #3366ff;
-  transform: rotateY(150deg);
 }
 
 .numbers{
   margin: 0 auto;
   position: fixed;
   top: 40px;
+}
+
+.number_link .tooltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: #3366ff;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.number_link .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.number_link:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
