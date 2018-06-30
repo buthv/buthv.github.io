@@ -165,10 +165,6 @@ a.go_up{
   background-color: #3366ff;
 }
 
-.abt_home{
-  
-}
-
 /* typography */
 
 p {
@@ -340,6 +336,11 @@ b{
   border: 2px dotted white;
   background-color: chartreuse;
 }
+
+.abtme_intro{
+  font-size: 1.5em;
+}
+
 /* main */
 
 .introduction{
