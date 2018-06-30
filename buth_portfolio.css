@@ -464,7 +464,7 @@ footer{
 /* about me page */
 
 .abtme_main{
-  background-image:url(img/aboutme_img/background.png);
+  background-image: url(/img/aboutme_img/background.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -479,6 +479,10 @@ footer{
 }
  
 .abtme_content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   height: 100vh;
 }
 .abtme_content_image{
