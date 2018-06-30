@@ -477,10 +477,12 @@ footer{
   
   margin-bottom: 50px;  
 }
-  
+ 
+.abtme_content{
+  height: 100vh;
+}
 .abtme_content_image{
   width: 600px;
-  height: auto; 
 }
 
 .abtme_image_one,
@@ -488,20 +490,6 @@ footer{
 .abtme_image_three {
   width: 100%;
 }
-
-.abtme_image_one,
-.abtme_image_two,
-.abtme_image_three{
-  
-  animation-name: come-in;
-  transform: translateY(150px);
-  animation: come-in 0.8s ease forwards;
-}
-
-@keyframes come-in {
-  to { transform: translateY(0); }
-}
-
 
 .abtme_title{
   text-align: center;
