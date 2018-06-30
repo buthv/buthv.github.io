@@ -22,7 +22,7 @@ a {
   margin-top: 50px;
   margin-right: 50px;
   
-  background-color: white;
+  background-color: transparent;
   display: inline-block;
   
   color: gray;
@@ -83,6 +83,7 @@ header{
 
  a.top_dest{
   padding: 0 5px 0 5px;
+  
 }
 
 .top_dest:hover{
@@ -165,6 +166,11 @@ a.go_up{
   background-color: #3366ff;
 }
 
+.arrow_abt{
+  text-align: center;
+  background-color: transparent;
+  text-decoration: none;
+}
 /* typography */
 
 p {
@@ -317,7 +323,7 @@ b{
 
 .abtme_text{
   font-family: Lekton;
-  color: white;
+  color: #ff02ff;
   
   max-width: 600px;
   text-align: center;
