@@ -507,9 +507,8 @@ footer{
 .number_link{
   
   padding: 0;
-  margin: 10px;
-  width: 20px;
-  height: 20px;
+  margin-right: 90px;
+  font-size: 1em;
   text-align: center;
 
   color: #ff02ff;
@@ -518,13 +517,13 @@ footer{
 .number_link:hover{
   
   color: #3366ff;
-  transform: skewX(30deg);
+  transform: rotateY(-150deg);
 }
 
 .number_link:nth-child(odd):hover{
   
   color: #3366ff;
-  transform: skewX(-30deg);
+  transform: rotateY(150deg);
 }
 
 .numbers{
