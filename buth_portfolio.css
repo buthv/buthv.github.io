@@ -296,9 +296,8 @@ h2{
 
 .project_content_text{
   font-family: Lekton;
-  margin: 150px;
-  max-width: 400px;
   line-height: 2em;
+  max-width: 38em;
   
   color: #3366ff;
 }
@@ -450,6 +449,7 @@ b{
 .content_image_container{
   width: 600px;
   height: auto;
+  padding: 40px;
 }
 .content_image{
   width: 100%
@@ -570,11 +570,21 @@ footer{
 @media only screen and (max-width: 600px) {
     
     .project_content {
-    font-size: 1.5em;
+    width: 100%;
     flex-direction: column;
     }
   
   .content_image_container{
-    
+    width: 100%;
+    }
+  
+  .project_content_text{
+    margin: 0;
+    padding: 10px;
   }
+  
+  .project_title{
+    text-align: center;
+  }
+
 }
