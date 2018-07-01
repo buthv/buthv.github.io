@@ -409,27 +409,30 @@ b{
 }
 
 .desc_full_height{
-  min-height: 80vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  
+  padding: 50px 0;
 }
 
 .desc_lower_height{
-  min-height: 70vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  
+  padding: 50px 0;
 }
 
 .desc_different_style {
-  min-height: 80vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  
+  padding: 50px 0;
 }
 
 .project_sample_img{
@@ -562,4 +565,16 @@ footer{
 .number_link:hover .tooltip {
     visibility: visible;
     opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .project_content {
+    font-size: 1.5em;
+    flex-direction: column;
+    }
+  
+  .content_image_container{
+    
+  }
 }
