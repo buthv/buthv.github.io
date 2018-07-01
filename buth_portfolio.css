@@ -412,8 +412,6 @@ b{
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  
-  padding: 50px 0;
 }
 
 .desc_lower_height{
@@ -435,12 +433,12 @@ b{
 }
 
 .sample_img{
-  max-width: 400px;
+  width: 500px;
   height: auto;
-  padding: 30px;
+  padding: 0 50px 0 50px;
 }
 .project_sample_img{
-  width: 100%
+  width: 100%;
 }
 
 .project_content{
@@ -591,4 +589,13 @@ footer{
     text-align: center;
   }
  
+  .sample_img{
+  width: 400px;
+  height: auto;
+}
+  .intro_text,
+  h3 {
+    font-size: 2em;
+    margin: 0;
+  }   
 }
