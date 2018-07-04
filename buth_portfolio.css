@@ -483,8 +483,6 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  margin-bottom: 50px;  
 }
  
 .abtme_content{
@@ -534,10 +532,11 @@ footer{
   transform: translateY(-10px);
 }
 
-.numbers{
-  margin: 0 auto;
+.numbers{ 
   position: fixed;
-  top: 40px;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .number_link .tooltip{
@@ -554,7 +553,7 @@ footer{
     position: absolute;
   
     z-index: 1;
-    bottom: 125%;
+    top: 125%;
     left: 50%;
     margin-left: -60px;
     opacity: 0;
@@ -566,12 +565,13 @@ footer{
 .number_link .tooltip::after {
     content: "";
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     left: 50%;
+    transform: rotate(180deg);
     margin-left: -5px;
-    border-width: 5px;
+    border-width: 7px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: #00ccfe transparent transparent transparent;
 }
 
 .number_link:hover .tooltip {
@@ -608,4 +608,10 @@ footer{
     font-size: 2em;
     margin: 0;
   }   
+  
+  .numbers{ 
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
 }
