@@ -542,10 +542,13 @@ footer{
 
 .number_link .tooltip{
     visibility: hidden;
+    border-radius: 25px;
+    border: 2px solid #00ccfe;
+    background-color: #ff02ff;
+    padding: 20px; 
     width: 120px;
-    border-radius: 50%;
-    background-color: #3366ff;
-    color: #fff;
+  
+    color: white;
     text-align: center;
     padding: 5px 10px;
     position: absolute;
@@ -555,7 +558,7 @@ footer{
     left: 50%;
     margin-left: -60px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
   
     font-size: 0.8em;
 }
