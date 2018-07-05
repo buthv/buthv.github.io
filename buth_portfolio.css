@@ -469,10 +469,10 @@ footer{
   flex-flow: row wrap;
   align-content: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .abtme_content{
+  margin-top: 100px;
   height: 100vh;
 }
 
@@ -521,6 +521,8 @@ footer{
   top: 0;
   display: flex;
   flex-flow: row wrap;
+  
+  background-color: gray;
 }
 
 .number_link .tooltip{
