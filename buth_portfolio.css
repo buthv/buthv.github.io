@@ -275,7 +275,7 @@ h2{
   max-width: 38em;
   font-family: Lekton;
   line-height: 2.5em;
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
   font-weight: 100;
 
   font-weight: 100;
@@ -604,6 +604,10 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+  
+  .desc_lower_height{
+    padding: 0;
+  }
     
     .project_content {
     width: 100%;
