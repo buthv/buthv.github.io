@@ -494,9 +494,15 @@ footer{
 
 .abtme_title{
   text-align: center;
-  margin-top: 50px;
+  display: none;
 }
 
+@media (max-width: 600px){
+  
+  .abtme_title{
+    display: block;
+  }
+}
 .number_link{
   
   position: relative;
@@ -577,6 +583,7 @@ footer{
   max-width: 600px;
   text-align: center;
   line-height: 1.5em;
+  margin: 0;
 }
 
 .abtme_title_text{
@@ -633,15 +640,13 @@ footer{
   
   .abtme_text{
     width: 100vw;
-    padding: 20px;
-    text-align: left;
+    padding: 10px;
   }
   
   .intro_text,
   h3 {
     font-size: 2em;
     margin: 0;
-    width: 100vw;
   }   
   
   .numbers{  
