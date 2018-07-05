@@ -464,13 +464,14 @@ footer{
   align-items: center;
 }
  
-.abtme_content{
+.abtme_intro{
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-content: center;
   justify-content: center;
   height: 100vh;
 }
+
 .abtme_content_image{
   width: 600px;
   display: flex;
@@ -577,10 +578,13 @@ footer{
   background-color: chartreuse;
 }
 
-.abtme_intro{
+.abtme_intro_text{
   font-size: 1.5em;
 }
 
+.abtme_intro{
+  display: flex;
+}
 
 @media only screen and (max-width: 600px) {
     
