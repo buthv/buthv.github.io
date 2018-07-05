@@ -505,6 +505,7 @@ footer{
   background-color: #00ccfe;
 
   color: white;
+  border: 1px dotted #3366ff;
  
 }
 
@@ -515,7 +516,7 @@ footer{
 .number_link:hover{
   
   color: #3366ff;
-  border: 2px dotted #ff02ff;
+  border: 1px dotted #ff02ff;
   background-color: #f9ee5a;
   transform: translateY(-10px);
 }
