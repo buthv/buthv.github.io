@@ -319,28 +319,6 @@ b{
   color: #ff02ff;
 }
 
-.abtme_text{
-  font-family: Lekton;
-  color: #ff02ff;
-  
-  max-width: 600px;
-  text-align: center;
-  line-height: 1.5em;
-}
-
-.abtme_title_text{
-  color: #3366ff;
-  letter-spacing: 0.2em;
-  text-align: center;
-  
-  border: 2px dotted white;
-  background-color: chartreuse;
-}
-
-.abtme_intro{
-  font-size: 1.5em;
-}
-
 /* main */
 
 .introduction{
@@ -580,6 +558,30 @@ footer{
     opacity: 1;
 }
 
+
+.abtme_text{
+  font-family: Lekton;
+  color: #ff02ff;
+  
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.abtme_title_text{
+  color: #3366ff;
+  letter-spacing: 0.2em;
+  text-align: center;
+  
+  border: 2px dotted white;
+  background-color: chartreuse;
+}
+
+.abtme_intro{
+  font-size: 1.5em;
+}
+
+
 @media only screen and (max-width: 600px) {
     
     .project_content {
@@ -609,17 +611,28 @@ footer{
   .sample_img{
   width: 400px;
   height: auto;
-}
+  }
+  
+  .abtme_content_image{
+    width: 100vw;
+  }
+  
+  .abtme_text{
+    width: 100vw;
+    padding: 20px;
+    text-align: left;
+  }
+  
   .intro_text,
   h3 {
     font-size: 2em;
     margin: 0;
   }   
   
-  .numbers{ 
-  top: 0;
+  .numbers{  
   display: flex;
   flex-flow: row wrap;
+  padding: 20px;
 }
   h1{
     padding: 0 15px 0 15px;
