@@ -442,7 +442,8 @@ b{
   width: 100%;
 }
 
-.project_content{
+.project_content,
+.project_content_reverse{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -595,6 +596,12 @@ footer{
     padding: 10px;
   }
   
+  .project_content_reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  
   .project_title{
     text-align: center;
   }
@@ -616,5 +623,6 @@ footer{
 }
   h1{
     padding: 0 15px 0 15px;
+    text-align: center;
   }
 }
