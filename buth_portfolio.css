@@ -502,9 +502,10 @@ footer{
   position: relative;
   padding: 15px;
   text-align: center;
-  border: 2px dotted #00ccfe;
+  background-color: #00ccfe;
 
   color: #ff02ff;
+ 
 }
 
 .number_link a{
@@ -564,6 +565,7 @@ footer{
 .number_link:hover .tooltip {
     visibility: visible;
     opacity: 1;
+    z-index: 1;
 }
 
 
@@ -653,4 +655,8 @@ footer{
   .number_link{
     margin: 0;
   }
+  
+  .number_link:hover .tooltip {
+    visibility: hidden;
+}
 }
