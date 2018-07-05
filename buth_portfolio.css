@@ -472,6 +472,10 @@ footer{
   height: 100vh;
 }
 
+.abtme_content{
+  height: 100vh;
+}
+
 .abtme_content_image{
   width: 600px;
   display: flex;
@@ -631,15 +635,19 @@ footer{
   h3 {
     font-size: 2em;
     margin: 0;
+    width: 100vw;
   }   
   
   .numbers{  
   display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
+  align-content: center;
+  margin: 20px 10px 0 10px;
 }
   h1{
     padding: 0 15px 0 15px;
     text-align: center;
+  }
+  .number_link{
+    margin: 0;
   }
 }
