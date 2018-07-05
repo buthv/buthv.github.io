@@ -474,10 +474,13 @@ footer{
 .abtme_content{
   margin-top: 100px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .abtme_content_image{
   width: 600px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -521,8 +524,6 @@ footer{
   top: 0;
   display: flex;
   flex-flow: row wrap;
-  
-  background-color: gray;
 }
 
 .number_link .tooltip{
