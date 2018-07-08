@@ -441,19 +441,10 @@ b{
   height: 500px;
   max-width: 1000px;
   padding: 40px;
-  
-  overflow: scroll;
 }
 
 .scrolling_image{
   width: 100%;
-}
-
-@media (max-width: 600px){
-  
-  .scrolling_image_container{
-   overflow: none;
-  }
 }
 
 footer{
