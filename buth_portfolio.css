@@ -439,6 +439,7 @@ b{
 
 .scrolling_image_container{
   height: 500px;
+  max-width: 1000px;
   padding: 40px;
   
   overflow: scroll;
@@ -446,6 +447,13 @@ b{
 
 .scrolling_image{
   width: 100%;
+}
+
+@media (max-width: 600px){
+  
+  .scrolling_image_container{
+    width: auto;
+  }
 }
 
 footer{
