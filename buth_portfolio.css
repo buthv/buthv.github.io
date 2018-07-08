@@ -270,6 +270,7 @@ h2{
   color: #3366ff;
   
   text-shadow: 1px 1px #ff02ff;
+  text-align: center;
 }
 .content_text{
   max-width: 38em;
