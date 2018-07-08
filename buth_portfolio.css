@@ -487,6 +487,14 @@ footer{
   align-items: center;
 }
 
+.abtme_content_image_intro{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .abtme_image {
   width: 100%;
   margin-bottom: 20px;
