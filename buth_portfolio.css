@@ -452,7 +452,7 @@ b{
 @media (max-width: 600px){
   
   .scrolling_image_container{
-   
+   overflow: auto;
   }
 }
 
