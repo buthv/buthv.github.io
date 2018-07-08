@@ -24,7 +24,7 @@ a {
   background-color: transparent;
   display: inline-block;
   
-  color: gray;
+  color: #3366ff;
 }
 
 /* buttons animation */
@@ -46,8 +46,8 @@ a:hover{
 .contact,
 .about,
 .view_portfolio{
-  box-shadow: 2px 2px gray;
-  border: 1px solid gray;
+  box-shadow: 2px 2px #3366ff;
+  border: 2px dotted #3366ff;
 }
 .contact:hover{
   color: #ff02ff;
