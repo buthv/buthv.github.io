@@ -640,11 +640,12 @@ footer{
 
 .animation_title{
   width: 250px;
-  text-align: center;
+  color: #3366ff;
 }
 
 
-.animation_content{
+.animation_content,
+.animation_content_reverse{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -655,6 +656,16 @@ footer{
   
   .animation_content{
     margin: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .animation_content_reverse{
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .animations_container{
+    width: 100vw;
   }
 }
 
