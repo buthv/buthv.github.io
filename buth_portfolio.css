@@ -438,16 +438,6 @@ b{
   width: 100%
 }
 
-.scrolling_image_container{
-  height: 500px;
-  max-width: 1000px;
-  padding: 40px;
-}
-
-.scrolling_image{
-  width: 100%;
-}
-
 footer{
   text-align: center;
   margin-top: 100px;
@@ -465,7 +455,6 @@ footer{
 .content_smaller_image{
   width: 100%;
 }
-
 
 /* about me page */
 
@@ -622,6 +611,37 @@ footer{
 .abtme_intro{
   display: flex;
 }
+
+/* animations page */
+
+.animation_main {
+  margin: 0 100px 0 100px;
+  background-color: aqua;
+}
+
+@media (max-width: 600px){
+  
+  .animation_main{
+    margin: 0;
+  }
+}
+
+.animations_container{
+  width: 500px;
+}
+
+.animations_gif{
+  width: 100%;
+}
+
+.animation_content_right{
+  
+}
+
+.animation_content_left{
+  
+}
+
 
 @media only screen and (max-width: 600px) {
   
