@@ -644,8 +644,7 @@ footer{
 }
 
 
-.animation_content,
-.animation_content_reverse{
+.animation_content{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -656,14 +655,9 @@ footer{
   
   .animation_content{
     margin: 0;
-    flex-direction: column-reverse;
     text-align: center;
   }
-  .animation_content_reverse{
-    margin: 0;
-    flex-direction: column;
-    text-align: center;
-  }
+  
   .animations_container{
     width: 100vw;
   }
