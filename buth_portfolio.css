@@ -616,7 +616,6 @@ footer{
 
 .animation_main {
   margin: 0 100px 0 100px;
-  background-color: aqua;
 }
 
 @media (max-width: 600px){
@@ -639,8 +638,16 @@ footer{
   width: 100%;
 }
 
+.animation_title{
+  width: 250px;
+  text-align: center;
+}
+
+
 .animation_content{
   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
 }
 
@@ -650,6 +657,8 @@ footer{
     margin: 0;
   }
 }
+
+/* media query */
 
 @media only screen and (max-width: 600px) {
   
