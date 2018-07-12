@@ -584,6 +584,10 @@ footer{
     z-index: 1;
 }
 
+.abtme_title{
+  color: #3366ff;
+  font-weight: 100;
+}
 
 .abtme_text{
   font-family: Lekton;
