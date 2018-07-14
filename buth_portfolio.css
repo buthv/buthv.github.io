@@ -479,6 +479,17 @@ footer{
   align-items: center;
 }
 
+.intro{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circle{
+  color: #3366ff;
+  align-self: center;
+}
 .abtme_content_image{
   width: 600px;
   margin-top: 100px;
