@@ -462,7 +462,6 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
  
 .abtme_intro{
@@ -477,6 +476,7 @@ footer{
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .abtme_content_image{
@@ -517,11 +517,10 @@ footer{
   position: relative;
   padding: 15px;
   text-align: center;
-  background-color: #00ccfe;
 
-  color: white;
-  border: 1px dotted #3366ff;
- 
+  color: #3366ff;
+  border: 2px dotted #3366ff;
+  box-shadow: 2px 2px #3366ff;
 }
 
 .number_link a{
@@ -531,7 +530,7 @@ footer{
 .number_link:hover{
   
   color: #3366ff;
-  border: 1px dotted #ff02ff;
+  border: 2px dotted #ff02ff;
   background-color: #f9ee5a;
   transform: translateY(-10px);
 }
@@ -730,7 +729,7 @@ footer{
     text-align: center;
   }
   .number_link{
-    margin: 0;
+    margin: 5px;
   }
   
   .number_link:hover .tooltip {
