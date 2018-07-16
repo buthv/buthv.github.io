@@ -171,6 +171,14 @@ a.go_up{
 p {
   font-family: Lekton;
   line-height: 2em;
+  padding: 0;
+}
+
+li {
+  font-family: Lekton;
+  line-height: 2em;
+  color: #3366ff;
+  font-weight: 600;
 }
 
 .quote{
