@@ -176,13 +176,6 @@ p {
   color: #3366ff;
 }
 
-li {
-  font-family: Lekton;
-  line-height: 2em;
-  color: #3366ff;
-  font-weight: 600;
-}
-
 .quote{
   color: white;
   margin: 10px;
@@ -328,6 +321,11 @@ h2{
 
 b{
   color: #ff02ff;
+}
+
+.bold_blue{
+   color: #3366ff;
+  font-weight: 900;
 }
 
 /* main */
