@@ -292,7 +292,7 @@ h2{
   color: chartreuse;
   font-weight: 100;
   
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   letter-spacing: 0.2em;
   font-size: 2em;
   
@@ -444,6 +444,11 @@ b{
 }
 .content_image{
   width: 100%
+}
+
+.content_with_bg{
+  background-image: url(img/food_for_soul_img/food-idea.png);
+  background-size: cover;
 }
 
 footer{
