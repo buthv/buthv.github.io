@@ -328,6 +328,10 @@ b{
   font-weight: 900;
 }
 
+i{
+  font-size: 1.5em;
+}
+
 /* main */
 
 .introduction{
@@ -467,6 +471,10 @@ footer{
 }
 .content_smaller_image{
   width: 100%;
+}
+
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 /* about me page */
