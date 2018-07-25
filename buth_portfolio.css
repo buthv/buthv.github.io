@@ -466,13 +466,25 @@ footer{
 }
 
 .smaller_image{
-  max-width: 1000px;
   height: auto;
 }
 .content_smaller_image{
   width: 100%;
 }
+.row_container{
+  margin-top: 30px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
+.image_row{
+  padding: 0 20px;
+  text-align: center;
+}
+.image_row img{
+  width: 200px;
+}
 .shadow{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
