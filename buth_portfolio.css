@@ -11,6 +11,7 @@ main{
   display: flex;
   flex-flow: column nowrap;
   text-align: left;
+  
 }
 /* buttons */
 
@@ -462,6 +463,9 @@ footer{
   text-align: center;
   margin-top: 100px;
   background-color: #3366ff;
+  
+  background-image: url(/img/index/pokadot.png);
+  background-repeat: repeat;
 }
 
 .view_other_project{
