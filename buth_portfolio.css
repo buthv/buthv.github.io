@@ -494,6 +494,12 @@ footer{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
+.border_line{
+  border-bottom: 2px dotted lightgray;
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* about me page */
 
 .abtme_main{
