@@ -147,6 +147,10 @@ a.go_up{
   box-shadow: 2px 2px #ff02ff;
 }
 
+.bottom_page{
+  display: flex;
+  justify-content: center;
+}
 /* arrow link effect */
 
 .arrow a:hover{
@@ -449,6 +453,8 @@ i{
   width: 600px;
   height: auto;
   padding: 40px;
+  
+  text-align: center;
 }
 .content_image{
   width: 100%
