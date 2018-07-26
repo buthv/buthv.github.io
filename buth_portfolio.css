@@ -509,6 +509,10 @@ footer{
   margin: 0 auto;
 }
 
+.light_border{
+  border: 1px solid lightgray;
+}
+
 /* about me page */
 
 .abtme_main{
