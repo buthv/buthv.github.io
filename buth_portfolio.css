@@ -182,6 +182,10 @@ p {
   color: #3366ff;
 }
 
+.left_align{
+  text-align: left;
+}
+
 .quote{
   color: white;
   margin: 10px;
