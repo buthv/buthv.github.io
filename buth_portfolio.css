@@ -220,6 +220,7 @@ h3:hover{
 h2{
   font-family: Lekton;
   margin: 0;
+  text-transform: capitalize;
 }
 
 .cursive_font{
